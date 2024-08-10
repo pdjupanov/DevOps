@@ -8,8 +8,8 @@ pipeline {
     environment {
         scannerHome = tool 'sonar6.0'  // Declare scannerHome globally or at the stage level
         registryCredential = 'ecr:eu-central-:ecr_key'
-        appRegistry = "5901837888.dkr.ecr.eu-central-1.amazonaws.com/vprofile"
-        vprofileRegistry = "5901837888.dkr.ecr.eu-central-1.amazonaws.com"
+        appRegistry = ".dkr.ecr.eu-central-1.amazonaws.com/vprofile"
+        vprofileRegistry = ".dkr.ecr.eu-central-1.amazonaws.com"
     }
 
     stages {
